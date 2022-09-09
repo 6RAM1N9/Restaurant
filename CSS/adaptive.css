@@ -1,0 +1,66 @@
+@media screen and (max-width: 2560px) {
+	.header-text, .footer-text {
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 1120px) {
+	#header, #footer {
+		height: 150px;
+	}
+	.header-text, .footer-text {
+		display: block;
+	}
+}
+@media screen and (max-width: 1035px) {
+	#header, #footer {
+		max-width: none;
+	}
+	#about, #menu {
+		height: 100vh;
+	}
+	.about-div-img, .menu-div-img {
+		float: none;
+		height: 60%;
+		display: flex;
+		justify-content: center;
+	}
+	.about-div-text, .menu-div-text {
+		height: 40%;
+	}
+}
+@media screen and (max-width: 560px) {
+	#header {
+		height: 30vh;
+	}
+	.header-text, .footer-text {
+		font-size: 20px;
+	}
+	#name-site {
+		width: 100%;
+		max-width: none;
+		font-size: 50px;
+	}
+	#about, #menu {
+		height: 80vh;
+	}
+	.about-div-img, .menu-div-img {
+		height: 50%;
+		margin-bottom: 5%;
+	}
+	.about-text, .menu-text {
+		font-size: 30px;
+	}
+	#reservation {
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.about-text, .menu-text {
+		font-size: 25px;
+	}
+}
+@media screen and (max-width: 325px) {
+	.about-div-img, .menu-div-img {
+		height: 30%;
+	}
+}
